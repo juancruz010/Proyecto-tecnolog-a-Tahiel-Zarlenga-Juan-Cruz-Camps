@@ -1,0 +1,128 @@
+body {
+    font-family: 'Times New Roman', Times, serif, 
+    background-color: #f5f5f5;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header {
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+    }
+    
+    header h1 {
+    color: #c73424;
+    font-size: 36px;
+    margin-bottom: 10px;
+    }
+    
+    header p {
+    color: #6c3cb9;
+    }
+    
+    nav {
+    background-color: #e74c3c;
+    text-align: center;
+    padding: 15px;
+    }
+    
+    nav a {
+    color: rgb(32, 29, 29);
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    }
+    
+    nav a:hover {
+    text-decoration: underline;
+    }
+    
+    main {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+    }
+    
+    section {
+  background-color;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #dddddd;
+    }
+    
+    h2 {
+        color: #e74c3c;
+        border-bottom: 1px solid #eeeeee;
+        padding-bottom: 10px;
+        }
+        
+        h3 {
+        color: #444444;
+        }
+        
+        li {
+        margin-bottom: 12px;
+        line-height: 1.5;
+        }
+        
+        p {
+        line-height: 1.6;
+        }
+        
+        .recetas {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        }
+        
+        .tarjeta {
+        flex: 1 1 250px;
+        box-sizing: border-box;
+        border: 1px solid #eeeeee;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: #ffffff;
+        }
+        
+        .botón {
+        display: inline-block;
+        background-color: #e74c3c;
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        }
+        
+        .botón:hover {
+        background-color: #c0392b;
+        }
+        
+        footer {
+        background-color: white;
+        text-align: center;
+        padding: 20px;
+        border-top: 2px solid #1a1717;
+        }
+        
+        footer a {
+        color: #1f0704;
+        text-decoration: none;
+        }
+        
+        @media (max-width: 600px) {
+        main {
+        width: 92%;
+        }
+        
+        nav a {
+        display: inline-block;
+        margin: 7px;
+        }
+        } }
+        
+        header h1 {
+        font-size: 28px;
+        }
+        }
